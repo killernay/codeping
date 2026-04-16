@@ -37,7 +37,7 @@ Works on every device, every OS, every network. Even from a remote server on the
 
 ```
 /plugin marketplace add killernay/codeping
-/plugin install codeping@codeping
+/plugin install codeping@killernay
 ```
 
 **Step 2** — Run setup:
