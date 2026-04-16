@@ -7,7 +7,10 @@
   "plugins": [
     {
       "name": "codeping",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "killernay/codeping"
+      },
       "description": "Push notifications from Claude Code to any device via ntfy",
       "version": "1.0.0",
       "author": {
