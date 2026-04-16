@@ -36,7 +36,7 @@ Works on every device, every OS, every network. Even from a remote server on the
 **Step 1** — Add marketplace and install plugin (inside Claude Code):
 
 ```
-/plugin marketplace add killlernay/codeping
+/plugin marketplace add killernay/codeping
 /plugin install codeping@codeping
 ```
 
@@ -177,4 +177,4 @@ Then run `scripts/setup.sh` manually.
 
 ## License
 
-MIT — [Chanon Ngernthongdee](https://github.com/killlernay)
+MIT — [Chanon Ngernthongdee](https://github.com/killernay) · [Twitter/X](https://x.com/killernay)
