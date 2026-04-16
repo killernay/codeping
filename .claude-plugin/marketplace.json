@@ -1,0 +1,24 @@
+{
+  "name": "codeping",
+  "owner": {
+    "name": "Chanon Ngernthongdee",
+    "email": "chanon@ngernthongdee.co.th"
+  },
+  "plugins": [
+    {
+      "name": "codeping",
+      "source": ".",
+      "description": "Push notifications from Claude Code to any device via ntfy",
+      "version": "1.0.0",
+      "author": {
+        "name": "Chanon Ngernthongdee",
+        "email": "chanon@ngernthongdee.co.th"
+      },
+      "homepage": "https://github.com/killlernay/codeping",
+      "repository": "https://github.com/killlernay/codeping",
+      "license": "MIT",
+      "category": "notifications",
+      "keywords": ["notifications", "ntfy", "push", "remote", "multi-device", "apple-watch", "android"]
+    }
+  ]
+}
