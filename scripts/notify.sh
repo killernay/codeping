@@ -56,9 +56,9 @@ case "$EVENT" in
 esac
 
 curl -s \
-  -H "Title: ${DEVICE_NAME:-$(hostname)}" \
+  -H "Title: ${DEVICE_NAME:-$(hostname)} → $PROJECT" \
   -H "Priority: $PRIORITY" \
   -H "Tags: $TAGS" \
-  -d "[$PROJECT] $MSG" \
+  -d "$MSG" \
   "${NTFY_SERVER:-https://ntfy.sh}/${NTFY_TOPIC}" \
   > /dev/null
